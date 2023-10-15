@@ -1,4 +1,4 @@
-matrix = [[0,2,1],[5,6,3],[0,5,6]
+matrix = [[0,2,1],[5,6,3],[0,5,6]]
 
 
 def find_matrix_det(matrix):
