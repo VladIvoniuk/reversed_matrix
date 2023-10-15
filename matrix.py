@@ -32,9 +32,9 @@ def main(matrix):
   new_row = []
   determinant = find_matrix_det(matrix)
   transpoused_mat = transpouse(matrix)
-  for i in range(len(transpouse_mat)):
-    for j in range(len(transpouse_mat[i])):
-      minor = find_matrix_minor(transpouse_mat,i,j)
+  for i in range(len(transpoused_mat)):
+    for j in range(len(transpoused_mat[i])):
+      minor = find_matrix_minor(transpoused_mat,i,j)
       cofactor = (-1) ** (j+i) * find_matrix_det(minor)
       new_row.append(cofactor*1/determinant)
       if len(new_row) == 3:
