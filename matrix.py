@@ -31,7 +31,7 @@ new_arr = []
 def main(matrix):
   new_row = []
   determinant = find_matrix_det(matrix)
-  transpouse_mat = transpouse(matrix)
+  transpoused_mat = transpouse(matrix)
   for i in range(len(transpouse_mat)):
     for j in range(len(transpouse_mat[i])):
       minor = find_matrix_minor(transpouse_mat,i,j)
